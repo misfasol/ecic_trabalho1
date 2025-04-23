@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+}
+
+.users_crud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.lista {
+  background-color: #cccccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+.item_lista {
+  color: black;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30vw;
+}
+.item_lista:hover {
+  background-color: gray;
+  color: white;
+  transition: 100ms;
+}
+
+.botoes_user {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.botoes_user button {
+  background-color: white;
+  border: solid 2px #555;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+.botoes_user button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+.botoes_user button:active {
+  background-color: black;
+}
+
+.cadastro_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.cadastro_div > button {
+  border: solid 2px #555;
+  border-radius: 5px;
+  background-color: white;
+  transition: 200ms;
+}
+.cadastro_div > button:hover {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+}
+.cadastro_div > button:active {
+  background-color: black;
+}
+.cadastro_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cadastro_input > input {
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navbar a {
+  border-radius: 5px;
+  color: black;
+  border: solid 2px #555;
+  background-color: white;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 200ms;
+}
+.navbar a:hover {
+  background-color: #555;
+  color: white;
+}
+.navbar a:active {
+  background-color: black;
+}
+
+.listagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.listagem_info {
+  display: flex;
+  gap: 10px;
+}
+.listagem_info button {
+  width: 25px;
+  background-color: white;
+  border: solid 2px #555;
+  border-radius: 5px;
+  transition: 50ms;
+}
+.listagem_info button:hover {
+  color: white;
+  background-color: #555;
+}
+.listagem_info button:active {
+  background-color: black;
+}
+
+.listagem_info ul {
+  max-height: 60vh;
+  overflow-y: scroll;
+  background-color: #ccc;
+}
+.listagem_item {
+  background-color: #f0f0f0;
+  border: solid 2px #aaa;
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.listagem_item span {
+  width: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.detalhes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
