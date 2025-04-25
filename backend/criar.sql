@@ -11,9 +11,9 @@ create table trabalho1.usuarios (
     endereco varchar(200)
 );
 
-insert into trabalho1.usuarios values (null, "kevi", "ke@gmail.com", "00000000001", "m", "rua dele");
-insert into trabalho1.usuarios values (null, "igor", "igro@gmail.com", "00000000002", "m", "rua dois");
-insert into trabalho1.usuarios values (null, "jona", "joas@gmail.com", "00000000002", "m", "rua colo");
+insert into trabalho1.usuarios values (null, "Kevin", "ke@gmail.com", "00000000001", "m", "rua dele");
+insert into trabalho1.usuarios values (null, "Igor", "igro@gmail.com", "00000000002", "m", "rua dois");
+insert into trabalho1.usuarios values (null, "Jonas", "joas@gmail.com", "00000000002", "m", "rua colo");
 
 delete from trabalho1.usuarios where id = 1;
 
